@@ -1,0 +1,53 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-image: url(https://www.google.com/intl/en_ALL/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+  background-size: 272px 92px;
+  height: 92px;
+  width: 272px;
+  margin: 0 40%;
+}
+
+main {
+  border-bottom: 1px solid #ccc;
+  margin: 10px;
+}
+
+button {
+  cursor: pointer;
+  background: #0099FF;
+  color: #fff;
+  border: none;
+  border-radius:30px;
+}
+
+ul {
+  padding: 0;
+  border-top: 1px solid #000000;
+  display: table;
+  /* 定義 */
+  table-layout: fixed;
+  width: 100%;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid #666;
+  background-color: #FFF;
+  display: table-cell;
+  /* 定義 */
+}
+
+textarea{
+  margin: 3%;
+  width: 30%;
+  height: 30px;
+  font-size:50%;
+  box-shadow: 3px 3px 3px 3px #555;
+}
